@@ -1,0 +1,63 @@
+:root{
+--Purple600: hsl(246, 80%, 60%);
+
+--Orange300: hsl(15, 100%, 70%);/*(work)*/
+--Blue300: hsl(195, 74%, 62%); /*(play)*/
+--Pink400: hsl(348, 100%, 68%);/*(study)*/
+--Green400 : hsl(145, 58%, 55%);/*(exercise)*/
+--Purple700: hsl(264, 64%, 52%);/*(social)*/
+--Yellow300 : hsl(43, 84%, 65%); /*(self care)*/
+/* Neutral */
+--Navy900: hsl(235, 46%, 20%);
+--Purple500: hsl(235, 45%, 61%);
+--Navy950: hsl(226, 43%, 10%);
+--Navy200: hsl(236, 100%, 87%);
+}
+*{
+    margin: 0;
+}
+body{
+    background-color: var(--Navy950);
+    font-size: 18px;
+    font-family: "Rubik",sans-serif;
+}
+main{
+    padding: 3rem 1.5rem;
+}
+img{
+    width: 3.5rem;
+    border: 3px solid white;
+    border-radius: 3rem;
+}
+section{
+    background-color: var(--Navy900);
+    border-radius: 1rem;
+}
+article{
+    background-color: var(--Purple600);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5em;
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--Navy200);
+}
+h2{
+    font-weight: 100;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    color: var(--Purple500);
+}
+li:hover{
+    color: var(--Purple500);
+}
