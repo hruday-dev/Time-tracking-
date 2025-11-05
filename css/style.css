@@ -59,9 +59,15 @@ ul{
     display: flex;
     justify-content: space-evenly;
     padding: 1rem;
-    color: var(--Purple500);
 }
-li:hover{
+a{
+    color: var(--Purple500);
+    text-decoration: none;
+}
+.white{
+    color: white;
+}
+a:hover{
     color: white;
 }
 .work{
@@ -121,6 +127,7 @@ li:hover{
     background-color: var(--Yellow300);
     background-size: 3.5rem;
 }
+
 
 @media screen and (min-width:800px){
     main{
